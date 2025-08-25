@@ -6,7 +6,7 @@ import Home   from './maz/Home';
 
 const App = () => {
   return (
-    <div>
+    <div  className="overflow-x-hidden">
       <Navbar />
       <Home />
       <Footer />

@@ -1,0 +1,28 @@
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🔒 Global fixes */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* prevents horizontal scroll */
+}
+
+/* 👇 Your custom styles */
+.mark {
+  background-image: url(../src/image/2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-color: black;
+
+
+
+.shape {
+  border-block: 1px solid #CF1F1F;
+  padding: 10px;
+}
